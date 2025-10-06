@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  postgres:
+  # ...
+  zookeeper:
+  # ...
+  kafka:
+  # ...
+  debezium-connect:
+  # ...
+  elasticsearch:
+  # ...
+  command-api:
+  # Your core transactional service
+  query-view-updater:
+  # Kafka consumer for Elasticsearch
+  rule-engine-service:
+  # Kafka consumer for rules
+  query-api:
+  # API for the frontend
+  frontend:
+  # The UI service
