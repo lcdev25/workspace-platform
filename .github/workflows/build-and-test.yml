@@ -10,7 +10,7 @@ on:
 
 concurrency:
   # Group runs by the workflow name and the branch name (Git ref).
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
   # If a new run starts in the same group, cancel any runs that are already in progress.
   cancel-in-progress: true
 
