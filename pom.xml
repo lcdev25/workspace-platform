@@ -11,10 +11,10 @@
     <description>Parent POM for the Workbench Meta-Platform Project</description>
 
     <modules>
-        <module>command-api</module>
-        <module>query-view-updater</module>
-        <module>rule-engine-service</module>
-        <module>query-api</module>
+        <module>services/command-api</module>
+        <module>services/query-view-updater</module>
+        <module>services/rule-engine-service</module>
+        <module>services/query-api</module>
     </modules>
 
     <parent>
