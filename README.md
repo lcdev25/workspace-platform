@@ -3,7 +3,7 @@ A Platform For Building Your Own Personal Workspace
 
 # **Project Plan: Workbench Nucleus**
 
-> **Project Goal:** To create a fully containerized, multi-service application that demonstrates the end-to-end event-driven CQRS architecture. A user should be able to `git clone` the repository and run `docker-compose up` to have the entire system running on their local machine for development and demonstration.
+> **Project Goal:** To create a fully containerized, multi-service application that demonstrates the end-to-end event-driven CQRS architecture. A user should be able to `git clone` the repository and run `docker-compose up` to have the entire system running on their local machine for development, demonstration and personal work.
 
 ---
 
