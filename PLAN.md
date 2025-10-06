@@ -65,7 +65,7 @@ services:
 |   |-- frontend/
 |-- .gitignore
 |-- docker-compose.yml
-|-- README.md
+|-- PLAN.md
 ```
 
 ---
